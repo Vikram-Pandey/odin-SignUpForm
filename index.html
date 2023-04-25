@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/norse" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="sideImageContainer">
+      <img
+        src="images\halie-west-25xggax4bSA-unsplash.jpg" 
+        alt="backgroundImage"
+      />
+   
+    <div class="logoWithText">
+      <div class="logotext">ODIN</div>
+      <img class="logo" src="images/logo.png" alt="odinlogo" />
+    </div>
+    
+    </div>
+    <div class="textAndFormContainer">
+      <div class="generalText">
+        <div>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. 
+         <p>Sign up <em>now</em> to get started.</p>
+        </div>
+        <div>You <em>know </em> you want to.</div>
+      </div>
+      <div class="formSection">
+        <div class="withoutButton">
+        <div class="info">Let's do this!</div>
+        <p>(*) marked are required fields</p>
+        <div class="formform">
+        <form action="">
+            <div class="formName">
+          <div>
+            <label for="firstName">*FIRST NAME</label>
+            <input type="text" id="firstName" placeholder="Bob..." name="firstName" required autocomplete="firstName"/>
+          </div>
+          <div>
+            <label for="LastName">LAST NAME</label>
+            <input type="text" placeholder="Marley..." id="LastName" name="LastName" />
+          </div>
+        </div>
+        <div class="contactDetails">
+          <div>
+            <label for="email">*EMAIL</label>
+            <input type="email" id="email" placeholder="Bob@gmail.com..." name="email" required />
+          </div>
+          <div>
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" placeholder="xxx-xxx-xxxx..." pattern="[0-9]{3}[0-9]{3}[0-9]{4}" title="Provide US phone number" name="phone" />
+          </div>
+        </div>
+        <div class="passwords">
+          <div>
+            <label for="password">*PASSWORD</label>
+            <input type="password" id="password" name="password" minlength="6"
+             required />
+            <div id="err" class="valid">*Password do not match</div>
+          </div>
+          <div>
+            <label for="confirmPassword">*CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              required
+              minlength="6"
+            />
+            
+          </div>
+          
+        </div>
+        </div>
+    </div>
+          <div class="ButtonSection">
+            <button id="btn1" class="btn" type="submit">Create Account</button>
+            <div>Already have an account? <a class="login" href="#">Log in</a></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+ 
+</html>
